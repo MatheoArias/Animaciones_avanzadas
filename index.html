@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <!-- Main Content -->
+        <section class="container">
+
+            <!-- section del nav -->
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <img src="./assets/lego.png" alt="">
+                    <ul>
+                        <li><a href="#">EXCLUSIVOS</a></li>
+                        <li><a href="#">NUEVOS</a></li>
+                        <li><a href="#">GIFT CARDS</a></li>
+                        <li><a href="#">FIND A STORE</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- section del main-content -->
+            <section class="main-content">
+                <p>Diseña tu</p>
+                <h1>Súper Héroe!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum alias molestiae illum pariatur itaque numquam, ab voluptates modi nisi cumque magni ad possimus voluptatibus repudiandae dicta laudantium natus fugiat laboriosam?</p>
+            </section>
+
+            <section class="side-content">
+                <div></div>
+                <p>Superman</p>
+                <img src="./assets/super-man.png" alt="toy's image">
+            </section>
+
+            <section class="fotter">
+                <div class="fotter_container" id="0">
+                     <img src="./assets/spiderman.png" alt="This is a spider-man image">
+                </div>
+                <div class="fotter_container" id="1">
+                    <img src="./assets/robin.png" alt="This is a robin image">
+                </div>
+                <div class="fotter_container" id="2">
+                    <img src="./assets/batman.webp" alt="This is a batman image">
+                </div>
+            </section>
+        </section>
+
+        <!-- Loader -->
+        <section class="loader">
+            <!-- div:nth-child(1)   -->
+            <div></div>
+            <!-- div:nth-child(2)   -->
+            <div></div>
+            <!-- div:nth-child(3)   -->
+            <div></div>
+        </section>
+
+        <!-- Modal -->
+        <section id="modal" class="modal hidden">
+
+            <div class="modal__content">
+
+                <button id="buttonModal">Cerrar</button>
+
+                <div class="modal__content--slider">
+
+                    <input type="radio" name="slider" id="radio-1" class="radio">
+                    <input type="radio" name="slider" id="radio-2" class="radio">
+                    <input type="radio" name="slider" id="radio-3" class="radio" >
+                    
+                    <div class="cards">
+
+                        <label for="radio-1" id="card-1" class="card">
+                            <img src="./assets/spiderman.png" alt="this is a spiderman image">
+                        </label>
+    
+                        <label for="radio-2" id="card-2" class="card">
+                            <img src="./assets/robin.png" alt="This is a robin image">
+                        </label>
+    
+                        <label for="radio-3" id="card-3" class="card">
+                            <img src="./assets/batman.webp" alt="This is a batman image">
+                        </label>
+    
+                    </div>
+
+                </div>
+
+                <button>Seleccionar</button>
+            </div>
+
+        </section>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
